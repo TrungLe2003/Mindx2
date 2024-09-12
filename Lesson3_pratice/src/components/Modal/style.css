@@ -1,0 +1,280 @@
+div.modalGift {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #00000030;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.modalGift div.popUp {
+  width: 1035px;
+  height: 1275px;
+  background-color: white;
+  padding: 30px 28px;
+}
+
+div.popUp div.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+div.modalGift div.popUp div.content {
+  width: 100%;
+}
+
+div.modalGift div.popUp div.content div.overView {
+  width: 100%;
+}
+
+div.modalGift div.popUp div.overView div.frame {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-bottom: 46px;
+}
+
+img.productImg {
+  height: 443px;
+  width: 508;
+  border-radius: 10px;
+}
+
+div.overView div.quickOverview {
+  width: 425px;
+  height: 443px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 34px;
+}
+
+div.overView div.quickOverview div.quickOverview-title {
+  /* height: 71px; */
+  font-size: 28px;
+  font-weight: 500;
+  position: relative;
+  top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.overView div.quickOverview div.quickOverview-price {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+div.overView div.quickOverview div.quickOverview-price div.price {
+  font-size: 26px;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+}
+
+div.overView div.quickOverview div.quickOverview-price div.saleOff {
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+}
+
+div.overView div.quickOverview div.quickOverview-status {
+  height: 113px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+div.overView div.quickOverview div.quickOverview-status div.status {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+div.overView div.quickOverview div.quickOverview-status div.choose-size {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.overView div.quickOverview div.quickOverview-status div.choose-size button {
+  width: 104px;
+  height: 39px;
+  border: 1px solid #cdcdcd;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #cdcdcd;
+}
+
+div.overView
+  div.quickOverview
+  div.quickOverview-status
+  div.choose-size
+  button:hover {
+  background-color: #cdcdcd;
+  color: black;
+}
+
+div.overView div.quickOverview div.quickOverview-addcart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.overView div.quickOverview div.quickOverview-addcart div.amount {
+  display: flex;
+  align-items: center;
+}
+
+div.overView div.quickOverview div.quickOverview-addcart div.amount button {
+  width: 42px;
+  height: 42px;
+  background-color: #ff4d00;
+  border: 1px solid #ff4d00;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+div.overView div.quickOverview div.quickOverview-addcart div.amount div.count {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+div.overView div.quickOverview div.quickOverview-addcart button.add-cart-btn {
+  background-color: #ff4d00;
+  border: 1px solid #ff4d00;
+  border-radius: 10px;
+  color: white;
+  width: 142px;
+  height: 57px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+div.overView p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* */
+div.modalGift div.popUp div.notes {
+  width: 100%;
+  height: 535px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div.modalGift div.popUp div.notes div.notes-frame1 {
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.popUp div.notes div.notes-frame1 div.other-user {
+  display: flex;
+
+  align-items: center;
+  gap: 8px;
+}
+
+div.popUp div.notes div.notes-frame1 div.other-user div.other-username {
+  font-size: 18px;
+  font-weight: 550;
+}
+
+div.popUp div.notes div.notes-frame1 p.otherUser-comment {
+  font-size: 16px;
+}
+
+div.popUp div.notes div.notes-frame1 div.line0 {
+  border: 0.1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+div.popUp div.notes div.notes-frame1 div.add-comment {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.popUp div.notes div.notes-frame1 div.add-comment div.font-setting {
+  width: 84px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.popUp div.notes div.notes-frame1 div.add-comment button.comment-add-btn {
+  width: 108px;
+  height: 44px;
+  background-color: #0089ff;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+div.popUp div.notes h2 {
+  font-size: 26px;
+}
+
+div.popUp div.notes div.line {
+  border: 1px solid #776969;
+}
+
+div.popUp div.notes p {
+  font-size: 18px;
+}
+
+div.popUp div.notes div.comment {
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+div.popUp div.notes div.comment div.user {
+  display: flex;
+
+  align-items: center;
+  gap: 8px;
+}
+
+div.popUp div.notes div.comment div.username {
+  font-size: 18px;
+  font-weight: 550;
+}
+
+div.popUp div.notes div.comment div.user-comment {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+div.popUp div.notes div.comment div.delete-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.popUp div.notes div.comment div.delete-comment div.time-comment {
+  opacity: 0.5;
+  font-size: 14px;
+}

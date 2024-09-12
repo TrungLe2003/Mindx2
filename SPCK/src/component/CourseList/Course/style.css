@@ -1,0 +1,41 @@
+div.Course {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+div.Course img.img-course {
+  height: 200px;
+  width: 350px;
+}
+
+div.Course div.courseQuickReview {
+  width: 500px;
+}
+
+div.Course div.courseQuickReview div.row {
+  margin-bottom: 5px;
+}
+
+div.Course div.courseQuickReview div.nameCourse {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+div.Course div.courseQuickReview div.about-Course {
+}
+
+div.Course div.courseQuickReview div.author {
+  opacity: 0.8;
+}
+
+div.Course div.courseQuickReview div.hour {
+  opacity: 0.7;
+}
+
+div.Course div.price {
+  font-weight: bold;
+}

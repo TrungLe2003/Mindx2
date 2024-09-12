@@ -1,0 +1,29 @@
+div.pageHobbies {
+  width: 1106px;
+  /* height: 100vh;
+  overflow-y: hidden; */
+  margin: auto;
+  padding: 67px 130px;
+}
+
+div.pageHobbies:has(div.modalAdd) {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+div.pageHobbies div.content {
+  margin-top: 75px;
+
+  width: 848px;
+  height: 57px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.pageHobbies div.content div.giftList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}

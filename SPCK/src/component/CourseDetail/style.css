@@ -1,0 +1,138 @@
+li {
+  margin-bottom: 5px;
+}
+/* banner */
+div.CDbanner {
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+  padding: 20px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  background-color: #101828;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+div.CDbanner div.quickRv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  color: white;
+  width: 700px;
+}
+
+div.CDbanner div.quickRv div.Coursename {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+div.CDbanner div.quickRv div.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* banner > frameAddCart */
+div.CDbanner div.addcartframe {
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 650px;
+  box-shadow: 5px 5px 10px 0px rgb(209, 196, 196);
+}
+
+div.CDbanner div.addcartframe div.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.CDbanner div.addcartframe ul.result div.related {
+  font-weight: bold;
+}
+
+div.CDbanner div.addcartframe ul.result li {
+  margin-left: 40px;
+}
+
+div.CDbanner div.addcartframe div.frameBtn {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  align-items: center;
+}
+
+div.CDbanner div.addcartframe div.frameBtn button.addCartBtn {
+  width: 220px;
+  height: 60px;
+  font-size: 18px;
+  background-color: #a435f0;
+  color: white;
+  border: none;
+  border-radius: 50px;
+}
+
+div.CDbanner div.addcartframe div.frameBtn button.LikeBtn {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  border: 1px solid #d9dee9;
+  background-color: white;
+}
+
+/* content */
+div.CDcontent {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+/* sponsoringCompany */
+div.CDcontent div.sponsoringCompany {
+  width: 700px;
+  border: 1px solid #d6dae2;
+
+  padding: 10px 10px;
+}
+
+div.CDcontent div.sponsoringCompany div.companyList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+div.CDcontent div.required h2 {
+  margin-bottom: 10px;
+}
+
+div.CDcontent div.required ul {
+  margin-left: 25px;
+}
+
+/* describe */
+div.CDcontent div.Describe {
+  width: 700px;
+}
+
+div.CDcontent div.Describe h2 {
+  margin-bottom: 15px;
+}
+
+div.CDcontent div.Describe div.frame {
+  margin-top: 15px;
+}
+
+div.CDcontent div.Describe div.frame h3 {
+  margin-bottom: 10px;
+}
+
+div.CDcontent div.Describe div.frame ul li {
+  margin-left: 25px;
+}

@@ -1,0 +1,17 @@
+div.YourInfor {
+  margin: 30px 10px 20px 50px;
+}
+
+div.YourInfor div.YourInfor-frame1 {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  border: 1px solid #c5cad4;
+  border-radius: 50px;
+  padding: 20px;
+  width: 270px;
+  background-color: white;
+  margin-bottom: 80px;
+}

@@ -1,0 +1,40 @@
+div.pagination {
+  width: 333px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  /* gap: 32px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.pagination div.pagesItem {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  position: relative;
+}
+
+div.pagination div.pagesItem div.pages {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  box-sizing: border-box;
+}
+
+div.pagination div.pagesItem div.pages button.page {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #b4b4b4;
+  color: #b4b4b4;
+  font-size: 14px;
+}
+
+div.pagination div.pagesItem button.page:hover {
+  background-color: #b4b4b4;
+  color: white;
+}
+
+div.pagination div.pagesItem div.pageBar {
+}

@@ -1,0 +1,35 @@
+div.content {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+div.content h1.nameCourse {
+  margin-bottom: 30px;
+  color: #a435f0;
+}
+
+div.content p {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+div.content div.Frame1 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+div.content div.Frame1 div.menu {
+  margin-bottom: 40px;
+}
+
+div.content div.Frame1 div.menu div.row {
+  /* border-bottom: 1px solid #856f73; */
+  border-bottom: 1px solid #856f73;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}

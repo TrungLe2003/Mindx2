@@ -1,0 +1,36 @@
+div.item {
+  width: 197px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+div.item img {
+  width: 100%;
+  height: 197px;
+  border-radius: 10px;
+}
+
+div.item div.itemTitle {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+div.item div.itemTitle div.title {
+  font-size: 20px;
+  height: 60px;
+}
+
+div.item div.itemTitle img {
+  width: 20px;
+  height: 20px;
+}
+
+div.item div.itemPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

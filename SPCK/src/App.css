@@ -1,0 +1,185 @@
+div.homePage {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+
+div.homePage div.header {
+  padding: 40px 50px 40px 100px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+div.homePage div.header div.menu {
+  display: flex;
+  gap: 40px;
+}
+
+div.homePage div.header div.menu div {
+  font-size: 20px;
+}
+
+div.homePage div.header div.user-loggin {
+  display: flex;
+  gap: 10px;
+}
+
+div.homePage div.header div.user-loggin button {
+  height: 40px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+div.homePage div.header div.user-loggin button:hover {
+  opacity: 0.6;
+}
+
+div.header div.user-loggin button.sign-in {
+  background-color: white;
+}
+
+div.header div.user-loggin button.sign-up {
+  background-color: black;
+  color: white;
+}
+
+div.header div.user-loggin div.userA {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  margin-left: 20px;
+}
+
+div.header div.user-loggin div.userA sup {
+  font-weight: bold;
+}
+
+/* banner */
+div.homePage div.banner {
+  position: relative;
+}
+
+div.homePage div.banner div.banner-text {
+  position: absolute;
+  background-color: white;
+  top: 70px;
+  left: 100px;
+  width: 350px;
+  padding: 20px 30px;
+  box-shadow: 5px 10px #888888;
+}
+
+div.homePage div.banner div.banner-text h2 {
+  margin-bottom: 20px;
+}
+
+/* CateGory list */
+div.homePage div.cateGories-list {
+  padding: 0 100px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+div.homePage div.cateGories-list h2 {
+  margin-bottom: 40px;
+}
+
+div.homePage div.cateGories-list div.topCategories-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 20px;
+}
+
+div.cateGories-list div.topCategories-list div.category img {
+  width: 270px;
+  height: 270px;
+  margin-bottom: 5px;
+}
+
+div.cateGories-list div.topCategories-list div.category:hover {
+  opacity: 0.8;
+}
+
+div.cateGories-list div.topCategories-list div.category div.title {
+  font-weight: bold;
+}
+
+/* banner2 */
+div.homePage div.banner2 {
+  background-color: #f7f9fa;
+  height: 200px;
+  margin: 50px 0;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.homePage div.banner2 p {
+  margin-bottom: 30px;
+  color: #856f73;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+div.homePage div.banner2 div.company_logo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* footer */
+div.homePage div.footer {
+  padding: 60px 100px;
+  width: 100%;
+  border-radius: 60px 60px 0 0;
+  background-color: #eff1f5;
+  height: 45vh;
+}
+
+div.homePage div.footer div.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.homePage div.footer div.footer-content div.footer-frame {
+}
+
+div.footer div.footer-content div.footer-frame div.footer-frame-title {
+  margin-bottom: 20px;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+div.footer div.footer-content div.footer-frame div.footer-frame-text {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+div.footer div.footer-content div.footer-frame div.translate {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  gap: 10px;
+}
+
+div.footer div.footer-content div.footer-frame div.translate div.translate div {
+  font-weight: bold;
+}
+
+div.footer div.footer-content div.footer-frame button.logOut-btn {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #f5c000;
+}
